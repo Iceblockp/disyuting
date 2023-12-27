@@ -7,7 +7,12 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'heading': ['Big Shoulders Display', 'sans-serif'],
+        'para': ['Work Sans', 'sans-serif'],
+      },
+    },
   },
 
   plugins: [require("flowbite/plugin")],
