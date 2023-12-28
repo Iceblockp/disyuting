@@ -11,7 +11,7 @@ const NavBar = () => {
 
 
   return (
-    <div className=" flex w-screen ">
+    <div className=" flex w-full ">
       <div className=" flex mx-0 lg:mx-[5px] w-full">
         <div className=" w-full lg:w-[91%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
           <div className="  px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full ">
