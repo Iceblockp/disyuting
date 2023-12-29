@@ -12,6 +12,14 @@ export default {
         'heading': ['Big Shoulders Display', 'sans-serif'],
         'para': ['Work Sans', 'sans-serif'],
       },
+      
+      colors: {
+        'primary': '#3089F3',
+        'secondary': "#62DEF5",
+        'text': "#D5E8EB",
+        'accent': "#CADADD",
+
+      },
     },
   },
 
