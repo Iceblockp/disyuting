@@ -19,15 +19,15 @@ const SecSection2 = () => {
                         className=" w-full grid grid-cols-1 md:grid-cols-3 text-center md:text-start gap-4  "
                       >
                         {/* first component */}
-                        <div className=" w-full  xl:w-[402.5px]">
+                        <div className=" w-full  xl:w-[402.5px] sm:mb-4">
                           <div className="  xl:mb-4">
-                            <h2 className=" text-white text-2xl md:text-6xl font-heading font-extrabold select-none">
+                            <h2 className=" text-white text-2xl md:text-6xl font-heading font-extrabold select-none sm:mb-2">
                               ABOUT DISYUTING
                             </h2>
                           </div>
                           <div className=" w-full flex md:block justify-center">
                             <div className=" flex gap-3 items-center text-center ">
-                              <div className="">
+                              <div className=" group">
                                 <a href="https://www.youtube.com/watch?v=MLpWrANjFbI&list=TLGG9m1lwPUk9SEyODEyMjAyMw">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const SecSection2 = () => {
                                     viewBox="0 0 24 24"
                                     strokeWidth={1.5}
                                     stroke="currentColor"
-                                    className="w-8 h-8 p-1 pointer-events-none bg-custom-blue rounded-full flex justify-center items-center text-center"
+                                    className="w-8 h-8 p-1 pointer-events-none bg-custom-blue rounded-full flex justify-center items-center text-center group-hover:bg-cyan-600"
                                   >
                                     <path
                                       strokeLinecap="round"
@@ -63,11 +63,11 @@ const SecSection2 = () => {
                         </div>
 
                         {/* sec component */}
-                        <div className=" xl:w-[402.5px]">
+                        <div className=" xl:w-[402.5px] sm:mb-5">
                           <div className="">
                             <div className=" xl:mb-3">
                               <div className="">
-                                <h2 className=" text-slate-100 font-heading text-2xl font-bold select-none">
+                                <h2 className=" text-slate-100 font-heading text-2xl font-bold select-none sm:text-[18px] sm:mb-2">
                                   Motion and Still Production
                                 </h2>
                               </div>
@@ -75,7 +75,7 @@ const SecSection2 = () => {
 
                             <div className="">
                               <div className="">
-                                <p className="text-slate-300 select-none">
+                                <p className="text-slate-300 select-none leading-relaxed">
                                   Lorem ipsum dolor sit amet, consectetur
                                   adipiscing elit, sed do eiusmod tempor
                                   incididunt ut labore et dolore magna aliqua.
@@ -89,11 +89,11 @@ const SecSection2 = () => {
                         </div>
 
                         {/* third component */}
-                        <div className=" xl:w-[402.5px]">
+                        <div className=" xl:w-[402.5px] sm:mb-5">
                           <div className="">
                             <div className=" xl:mb-3">
                               <div className="">
-                                <h2 className="text-slate-300 font-heading text-2xl font-bold select-none">
+                                <h2 className="text-slate-100 font-heading text-xl font-bold select-none sm:text-[18px] sm:mb-2">
                                   Comes from Bali Island
                                 </h2>
                               </div>
@@ -101,7 +101,7 @@ const SecSection2 = () => {
 
                             <div className="">
                               <div className="">
-                                <p className="text-slate-300 select-none">
+                                <p className="text-slate-300 select-none leading-relaxed">
                                   Lorem ipsum dolor sit amet, consectetur
                                   adipiscing elit, sed do eiusmod tempor
                                   incididunt ut labore et dolore magna aliqua.
