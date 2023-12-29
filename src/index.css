@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
 .bg-custom-blue {
     background-color: #62DEF5;
   }

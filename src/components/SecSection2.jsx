@@ -4,7 +4,7 @@ Aos.init();
 
 const SecSection2 = () => {
   return (
-    <div className="w-full flex">
+    <div className="w-full flex mb-[200px]">
       <div className="flex mx-0 lg:mx-[5px] w-full">
         <div className="w-full lg:w-[91%] mx-auto">
           <div className="w-full px-[30px] lg:px-0 py-[10px] lg:py-[5px]">
