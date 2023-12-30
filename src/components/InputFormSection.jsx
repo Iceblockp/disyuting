@@ -31,49 +31,54 @@ const InputFormSection = () => {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
-                  className="border-slate-300 hover:border-[#62DEF5] border-l border-b py-16 px-10 rounded-lg shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10 "
+                  className="border-slate-300 hover:border-[#62DEF5] border-l border-b py-16 px-10 rounded-lg shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10"
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                     <div className="">
                       <input
                         type="text"
                         placeholder="First Name"
-                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm"
+                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
                       />
                     </div>
                     <div className="">
                       <input
                         type="text"
                         placeholder="Last Name"
-                        className=" bg-slate-200  bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm"
+                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
+                        required
                       />
                     </div>
                     <div className="">
                       <input
                         type="text"
                         placeholder="Add Email"
-                        className=" bg-slate-200  bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm"
+                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
+                        required
                       />
                     </div>
                     <div className="">
                       <input
                         type="text"
                         placeholder="Subject"
-                        className=" bg-slate-200  bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm"
+                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
+                        required
                       />
                     </div>
                     <div className="">
                       <input
                         type="text"
                         placeholder="+(602) 448 763 22"
-                        className=" bg-slate-200  bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm"
+                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
+                        required
                       />
                     </div>
                     <div className="">
                       <input
                         type="text"
                         placeholder="https://example.com"
-                        className=" bg-slate-200  bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm"
+                        className=" bg-slate-200 bg-opacity-20 w-full mb-4 px-6 py-4 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
+                        required
                       />
                     </div>
                   </div>
@@ -83,12 +88,16 @@ const InputFormSection = () => {
                       id="message"
                       name="message"
                       rows="8"
-                      className=" px-6 w-full bg-white bg-opacity-10 rounded-md placeholder:text-slate-300 text-sm"
+                      className=" px-6 py-4 w-full bg-white bg-opacity-10 rounded-md placeholder:text-slate-300 text-sm focus:border-white hover:border-[#62DEF5] border border-transparent caret-white"
+                      required
                     ></textarea>
                   </div>
 
                   <div className="text-start">
-                    <button className="  font-para px-10 py-3 bg-gradient-to-r from-blue-300 to-cyan-600 text-white rounded-full  hover:from-cyan-600 hover:to-cyan-300 focus:outline-none focus:ring focus:border-blue-300">
+                    <button
+                      type="submit"
+                      className="  font-para px-10 py-3 bg-gradient-to-r from-blue-300 to-cyan-600 text-white rounded-full  hover:from-cyan-600 hover:to-cyan-300  focus:border-[#62DEF5]"
+                    >
                       Send Message
                     </button>
                   </div>
