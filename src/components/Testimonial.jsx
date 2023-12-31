@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import AOS from "aos";
+import "../../node_modules/aos/dist/aos.css";
+AOS.init();
+
 
 const Testimonial = () => {
   const [percent, setPercent] = useState(0);
@@ -24,7 +28,9 @@ const Testimonial = () => {
                 </div>
               </div>
 
-              <div className=" p-[30px] overflow-hidden bg-[#5f505018] hover:bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#E9FCFF0F] rounded-[5px] hover:shadow-[0px_0px_15px_-5px] hover:shadow-[#7ce6f7] ">
+              <div data-aos="fade-up"
+              data-aos-duration="1000"
+               className=" p-[30px] overflow-hidden bg-[#5f505018] hover:bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#E9FCFF0F] rounded-[5px] hover:shadow-[0px_0px_15px_-5px] hover:shadow-[#7ce6f7] ">
                 <div
                   className={` h-[297.29px] w-[400%] lg:w-full flex duration-300 `}
                   style={{ transform: `translateX(-${percent}%)` }}
