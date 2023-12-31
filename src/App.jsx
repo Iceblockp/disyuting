@@ -2,6 +2,7 @@ import React from "react";
 import SecSection from "./components/SecSection";
 import SecSection2 from "./components/SecSection2";
 import InputFormSection from "./components/InputFormSection";
+import ShortMovie from "./components/ShortMovie";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <SecSection />
       <SecSection2 />
       <InputFormSection />
+      <ShortMovie />
     </div>
   );
 };
