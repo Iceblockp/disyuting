@@ -30,7 +30,7 @@ const Testimonial = () => {
 
               <div data-aos="fade-up"
               data-aos-duration="1000"
-               className=" p-[30px] overflow-hidden bg-[#5f505018] hover:bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#E9FCFF0F] rounded-[5px] hover:shadow-[0px_0px_15px_-5px] hover:shadow-[#7ce6f7] ">
+               className=" mb-[200px] p-[30px] overflow-hidden bg-[#5f505018] hover:bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#E9FCFF0F] rounded-[5px] hover:shadow-[0px_0px_15px_-5px] hover:shadow-[#7ce6f7] ">
                 <div
                   className={` h-[297.29px] w-[400%] lg:w-full flex duration-300 `}
                   style={{ transform: `translateX(-${percent}%)` }}
