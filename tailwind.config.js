@@ -46,6 +46,10 @@ export default {
         'accent': "#CADADD",
 
       },
+      screens: {
+        '2xl': '1427px',
+        
+      },
     },
   },
 

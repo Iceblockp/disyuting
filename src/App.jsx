@@ -1,4 +1,9 @@
 import React from "react";
+import AboutTop from "./components/AboutTop";
+import AboutSecond from "./components/AboutSecond";
+import AboutAccordian from "./components/AboutAccordian";
+import AccordianPart from "./components/AccordianPart";
+import AboutJourney from "./components/AboutJourney";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import SecSection from "./components/SecSection";
@@ -31,6 +36,7 @@ const App = () => {
       <Footer />
     </div>
   );
+
 };
 
 export default App;
