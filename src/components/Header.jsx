@@ -24,7 +24,7 @@ const Header = () => {
                 </div>
               </div>
               <div className=" p-[5px] w-full md:w-[60%]  ">
-                <div className=" w-full bg-contain bg-center bg-no-repeat grid grid-cols-1 xl:grid-cols-2 3xl:grid-cols-2 gap-[15px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/metaverse-digital-cyber-world-technology-man-with-2022-11-18-18-39-06-utc-EDT.png')] 3xl:h-[700px] 3xl:gap-[75px]">
+                <div className=" w-full bg-contain bg-center bg-no-repeat grid grid-cols-1 xl:grid-cols-2 3xl:grid-cols-2 gap-[15px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/metaverse-digital-cyber-world-technology-man-with-2022-11-18-18-39-06-utc-EDT.png')] lg:h-[700px] lg:gap-[75px]">
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1500"
