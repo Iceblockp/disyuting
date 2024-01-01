@@ -2,10 +2,10 @@ import React from "react";
 
 const TopVisual = () => {
   return (
-    <div className="  w-full  ">
+    <div className="  w-full ">
       <div className=" mb-[200px]">
         <div className=" p-[5px] flex mb-[50px] ">
-          <div className=" mx-auto w-[93%] flex flex-col  gap-[15px] ">
+          <div className=" mx-auto w-[89%]  flex flex-col  gap-[15px] ">
             <div className=" text-center font-para font-[600] text-accent text-[19.2px] 2xl:text-[22px] ">
               <h4>Disyuting Present</h4>
             </div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Pricelist = () => {
   return (
-    <div className=" pb-[200px] min-h-screen">
-      <div className="mx-auto p-1 w-[1305px] max-[1395px]:w-[89%] min-h-screen ">
+    <div className=" pb-[200px] ">
+      <div className="mx-auto p-1 w-[1305px] max-[1395px]:w-[89%]  ">
         <div className="flex flex-col min-[1425px]:flex-row gap-[50px] max-[1012px]:flex-col-reverse  ">
           <div className=" w-[67%] max-[770px]:w-[100%] h-[980px] max-[1012px]:h-auto bg-contain bg-no-repeat bg-center bg-[url(https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/happy-black-female-listening-music-with-digital-ta-2023-03-23-03-44-16-utcEDT-1.png)] flex items-end max-[1012px]:items-start flex-row max-[1012px]:flex-col gap-[30px]">
             <div className="w-[31%] max-[1012px]:w-[100%] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">

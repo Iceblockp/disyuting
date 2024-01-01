@@ -7,9 +7,9 @@ const SecSection = () => {
   return (
     <div className="w-full flex mb-[200px]">
       <div className=" flex mx-0 lg:mx-[5px] w-full">
-        <div className=" w-full lg:w-[91%] mx-auto">
+        <div className=" w-full lg:w-[89%] 2xl:max-w-[1620px] mx-auto">
           <div className=" w-full px-[30px] lg:px-0 py-[10px] lg:py-[5px]">
-            <div className="  w-full grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-3 justify-center flex-wrap md:gap-1">
+            <div className="  w-full grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-3 justify-center flex-wrap lg:gap-[15px]">
               {/* first div */}
               <div
                 data-aos="fade-up"
