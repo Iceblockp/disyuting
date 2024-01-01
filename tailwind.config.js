@@ -23,6 +23,13 @@ export default {
      boxShadow: {
         'neon-blue': '0 0 10px #00a5ff, 0 0 20px #00a5ff, 0 0 30px #00a5ff',
       },
+      colors: {
+        'primary': '#3089F3',
+        'secondary': "#62DEF5",
+        'text': "#D5E8EB",
+        'accent': "#CADADD",
+
+      },
     },
   },
 
