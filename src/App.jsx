@@ -11,6 +11,7 @@ import InputFormSection from "./components/InputFormSection";
 import Team from "./components/Team";
 import TopVisual from "./components/TopVisual";
 import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Team />
       <TopVisual />
       <Testimonial />
+      <Footer />
     </div>
   );
 };
