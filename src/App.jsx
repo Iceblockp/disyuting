@@ -13,6 +13,7 @@ import Awards from "./components/Awards";
 import PhotoInput from "./components/PhotoInput";
 import Pricelist from "./components/Pricelist";
 import InputFormSection from "./components/InputFormSection";
+import ShortMovie from "./components/ShortMovie";
 import Team from "./components/Team";
 import TopVisual from "./components/TopVisual";
 import Testimonial from "./components/Testimonial";
@@ -41,10 +42,11 @@ const App = () => {
       <Footer /></>}></Route>
       <Route path="about" element={<><AboutTop /><AboutSecond />< AboutJourney /><Awards /><Team /><AboutAccordian /><InputFormSection /><Footer /></>} ></Route>
       <Route path="ourProject" element={<><AboutTop /><Header /><TopVisual /><Testimonial /><Footer /></>} ></Route>
-      <Route path="pages" element={<><AboutTop /><PhotoInput />    <Pricelist /> <AboutAccordian /> <Footer /></>} ></Route>
+      <Route path="pages" element={<><AboutTop /><PhotoInput />   <ShortMovie />  <Pricelist /> <AboutAccordian /> <Footer /></>} ></Route>
       <Route path="contactUs" element={<><AboutTop />   <AboutSecond /><Testimonial /><Map /><Footer /></>} ></Route>
       </Routes>
       
+
     </div>
     
   );
