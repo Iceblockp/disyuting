@@ -15,10 +15,10 @@ const Awards = () => {
 
   return (
     <div className="  pb-[200px] ">
-      <div className="mx-auto p-1 w-[1305px] max-[1395px]:w-[89%] min-h-screen ">
+      <div className="mx-auto p-1 lg:w-[89%] 2xl:max-w-[1620px] ">
         <div className="flex flex-col min-[1425px]:flex-row gap-[30px]  ">
           {/* img */}
-          <div className=" w-[40%] max-[1425px]:w-[100%] max-[1425px]:h-[475px]  mr-[30px] relative overflow-hidden">
+          <div className=" w-[40%] max-[1425px]:w-[100%] max-[1425px]:h-[475px]  2xl:mr-[30px] relative overflow-hidden">
             <img
               className={` rounded-md h-[960px]  object-cover  transition-opacity duration-[3s] absolute  ${
                 isHovered ? "opacity-0" : "opacity-100"
