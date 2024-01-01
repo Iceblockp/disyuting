@@ -10,6 +10,7 @@ import Pricelist from "./Pricelist";
 import InputFormSection from "./components/InputFormSection";
 import Team from "./components/Team";
 import TopVisual from "./components/TopVisual";
+import Testimonial from "./components/Testimonial";
 
 
 
@@ -27,7 +28,7 @@ const App = () => {
      <InputFormSection />
      <Team />
      <TopVisual/>
-    
+     <Testimonial/>
     </div>
   );
 };
