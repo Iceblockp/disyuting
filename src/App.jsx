@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import SecSection from "./components/SecSection";
 import SecSection2 from "./components/SecSection2";
+import Production from "./components/Production";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <Header/>
     <SecSection />
       <SecSection2 />
+    <Production />
     </div>
   );
 };
