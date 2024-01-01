@@ -6,6 +6,8 @@ import SecSection2 from "./components/SecSection2";
 import Production from "./components/Production";
 import Awards from "./Awards";
 import PhotoInput from "./components/PhotoInput";
+import Pricelist from "./Pricelist";
+
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
     <Production />
       <Awards />
     <PhotoInput/>
+     <Pricelist />
+
 
     </div>
   );
