@@ -8,7 +8,7 @@ const Production = () => {
   return (
     <div className=" flex w-full  ">
       <div className=" flex mx-0 lg:mx-[5px] w-full mb-[200px]">
-        <div className=" w-full lg:w-[91%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
+        <div className=" w-full lg:w-[89%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
           <div className="  px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full ">
             <div className=" p-[5px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 md:gap-[40px] ">
               <div className=" flex mb-[50px] flex-col gap-[30px] col-span-1 xl:col-span-5 bg-no-repeat bg-contain bg-[70%] bg-[url(https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/director-chair-and-clapper-board-and-megaphone-in-2023-03-28-21-06-41-utc-EDITED.png)] ">

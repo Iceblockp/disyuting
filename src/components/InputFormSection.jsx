@@ -5,7 +5,7 @@ const InputFormSection = () => {
   return (
     <div className="w-full flex mb-[200px]">
       <div className=" flex mx-0 lg:mx-[5px] w-full">
-        <div className=" w-full lg:w-[91%] mx-auto">
+        <div className=" w-full lg:w-[89%] 2xl:max-w-[1620px] mx-auto">
           <div className=" w-full px-[30px] lg:px-0 py-[10px] lg:py-[5px]">
             <div className=" lg:flex justify-between items-center text-center w-full ">
               <div
@@ -96,7 +96,7 @@ const InputFormSection = () => {
                   <div className="text-start">
                     <button
                       type="submit"
-                      className="  font-para px-10 py-3 bg-gradient-to-r from-blue-300 to-cyan-600 text-white rounded-full  hover:from-cyan-600 hover:to-cyan-300  focus:border-[#62DEF5]"
+                      className="  font-para px-10 py-3 btnBlue rounded-3xl"
                     >
                       Send Message
                     </button>
