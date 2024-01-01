@@ -24,11 +24,11 @@ const Header = () => {
                 </div>
               </div>
               <div className=" p-[5px] w-full md:w-[60%]  ">
-                <div className=" w-full bg-contain bg-center bg-no-repeat grid grid-cols-1 xl:grid-cols-2 3xl:grid-cols-2 gap-[15px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/metaverse-digital-cyber-world-technology-man-with-2022-11-18-18-39-06-utc-EDT.png')] 3xl:h-[700px] ">
+                <div className=" w-full bg-contain bg-center bg-no-repeat grid grid-cols-1 xl:grid-cols-2 3xl:grid-cols-2 gap-[15px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/metaverse-digital-cyber-world-technology-man-with-2022-11-18-18-39-06-utc-EDT.png')] 3xl:h-[700px] 3xl:gap-[75px]">
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1500"
-                    className=" w-full items-center"
+                    className=" w-full flex items-center"
                   >
                     <div className=" p-[5px] w-full  bg-gradient-to-tr from-[#88939498] to-[#98c0dfce] hover:from-[#a5b3b5ae] hover:to-[#98c0dfe7]  rounded-[5px]  shadow-inner hover:shadow-2xl hover:shadow-[rgba(98,223,245,0.64)] shadow-[rgba(98,223,245,0.5)]  ">
                       <div className=" p-[23px] w-full">
