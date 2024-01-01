@@ -37,6 +37,14 @@ export default {
         'accent': "#CADADD",
 
       },
+      
+      colors: {
+        'primary': '#3089F3',
+        'secondary': "#62DEF5",
+        'text': "#D5E8EB",
+        'accent': "#CADADD",
+
+      },
     },
   },
 

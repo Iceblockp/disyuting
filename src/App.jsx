@@ -8,6 +8,7 @@ import Awards from "./Awards";
 import PhotoInput from "./components/PhotoInput";
 import Pricelist from "./Pricelist";
 import InputFormSection from "./components/InputFormSection";
+import Team from "./components/Team";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
     <PhotoInput/>
      <Pricelist />
     <InputFormSection />
+     <Team />
     </div>
   );
 };
