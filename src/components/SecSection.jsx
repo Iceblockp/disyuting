@@ -14,7 +14,7 @@ const SecSection = () => {
               <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                className=" hover:shadow-neon-blue shadow-2xl w-full flex items-center justify-center"
+                className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
                   <div className=" w-full bg-cover md:w-5/12 h-[163px] bg-center md:bg-left-top rounded-lg bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/stylish-futuristic-blonde-in-cyberpunk-style-on-a-2022-08-31-22-41-37-utc.jpg')]"></div>
@@ -60,7 +60,7 @@ const SecSection = () => {
               <div
                 data-aos="fade-up"
                 data-aos-duration="1600"
-                className="hover:shadow-neon-blue  w-full flex items-center justify-center"
+                className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
                   <div className=" w-full bg-cover md:w-5/12 h-[163px] bg-center md:bg-left-top rounded-lg bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/unforgettable-beauty-2022-12-16-14-26-13-utc.jpg')]"></div>
@@ -105,7 +105,7 @@ const SecSection = () => {
               <div
                 data-aos="fade-up"
                 data-aos-duration="2300"
-                className="hover:shadow-neon-blue  w-full flex items-center justify-center"
+                className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
                   <div className=" w-full bg-cover md:w-5/12 h-[163px] bg-center md:bg-left-top rounded-lg bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/guangzhou-city-2022-12-15-19-29-40-utc.jpg')]"></div>
@@ -150,7 +150,7 @@ const SecSection = () => {
               <div
                 data-aos="fade-up"
                 data-aos-duration="3000"
-                className="hover:shadow-neon-blue  w-full flex items-center justify-center"
+                className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
                   <div className=" w-full bg-cover md:w-5/12 h-[163px] bg-center md:bg-left-top rounded-lg bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/the-concept-of-shooting-with-gadgets-action-a-lar-2022-12-21-14-26-17-utc.jpg')]"></div>

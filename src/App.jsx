@@ -7,6 +7,7 @@ import Production from "./components/Production";
 import Awards from "./Awards";
 import PhotoInput from "./components/PhotoInput";
 import Pricelist from "./Pricelist";
+import InputFormSection from "./components/InputFormSection";
 
 
 
@@ -21,8 +22,7 @@ const App = () => {
       <Awards />
     <PhotoInput/>
      <Pricelist />
-
-
+    <InputFormSection />
     </div>
   );
 };
