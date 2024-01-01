@@ -39,7 +39,6 @@ const App = () => {
       <Team />
       <TopVisual />
       <Testimonial />
-      <Map />
       <Footer /></>}></Route>
       <Route path="about" element={<><AboutTop header={'About Us'} title={`YOU'LL FIND OUT ABOUT DISYUTING`} /><AboutSecond />< AboutJourney /><Awards /><Team /><AboutAccordian /><InputFormSection /><Footer /></>} ></Route>
       <Route path="ourProject" element={<><AboutTop header={'Our Project'} title={'PROJECTS THAT WE HAVE PRODUCED'} /><Header /><TopVisual /><Testimonial /><Footer /></>} ></Route>
