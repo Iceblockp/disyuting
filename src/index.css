@@ -5,10 +5,40 @@
 @tailwind utilities;
 
 
+
 ::placeholder {
     color: white;
     opacity: 1; /* Firefox */
   }
+
+.transparentCart:hover {
+  background-color: transparent;
+  background-image: linear-gradient(22deg, #e9fcff0f 0%, #98c0dfb5 55%);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+
+  border-color: #62def5;
+
+  box-shadow: 0px 12px 26px 5px rgba(98, 222, 245, 0.4);
+}
+.transparentCart {
+  background-image: linear-gradient(45deg, #e9fcff0f 0%, #98c0dfb5 100%);
+  transition-duration: 0.3s;
+}
+
+
+.btnBlue {
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #62def5 0%, #3089f3 100%);
+}
+
+.btnBlue:hover {
+  background-image: linear-gradient(45deg, #62def5 60%, #3089f3 100%);
+}
+
+
 .bg-custom-blue {
     background-color: #62DEF5;
   }
+
+
