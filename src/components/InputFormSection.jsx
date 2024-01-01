@@ -31,7 +31,7 @@ const InputFormSection = () => {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
-                  className="border-slate-300 hover:border-[#62DEF5] border-l border-b py-16 px-10 rounded-lg shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10"
+                  className="border-[#e9fcff0f] formShadow border-l border-b py-16 px-10 rounded-lg w-full   bg-slate-200 bg-opacity-10"
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                     <div className="">
@@ -96,7 +96,7 @@ const InputFormSection = () => {
                   <div className="text-start">
                     <button
                       type="submit"
-                      className="  font-para px-10 py-3 btnBlue rounded-3xl"
+                      className="  font-para px-10 py-3 btnBlue rounded-3xl font-bold"
                     >
                       Send Message
                     </button>

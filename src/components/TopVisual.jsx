@@ -24,7 +24,7 @@ const TopVisual = () => {
                   <h2>LADY STREET FIGHT FILM</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className=" hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -37,7 +37,7 @@ const TopVisual = () => {
                   <h2>WOMAN MOTORBIKE MECHANIC FILM</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -52,7 +52,7 @@ const TopVisual = () => {
                   <h2>MUSIC FESTIVAL 2023</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -64,7 +64,7 @@ const TopVisual = () => {
                   <h2>BUILDINGS CITY DOCUMENTER</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -76,7 +76,7 @@ const TopVisual = () => {
                   <h2>ABANDONED CAR SHORT FILM</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -94,7 +94,7 @@ const TopVisual = () => {
                   <h2>MV CLIP DJREDBLACK</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -107,7 +107,7 @@ const TopVisual = () => {
                   <h2>DEPPRESSED WOMAN HORROR</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -122,7 +122,7 @@ const TopVisual = () => {
                   <h2>STABILIZER LAUNCHING</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -134,7 +134,7 @@ const TopVisual = () => {
                   <h2>BEAUTY GIRLS WITH MAKEUP</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>
@@ -146,7 +146,7 @@ const TopVisual = () => {
                   <h2>INTERIOR DOCUMENTATION</h2>
                 </div>
                 <div>
-                  <button className=" px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
+                  <button className="hover:text-white px-[20px] py-[15px] bg-gradient-to-tr from-secondary to-primary rounded-[50px] text-[15px] font-para font-[600] text-[#1E1E37] ">
                     Watch Video
                   </button>
                 </div>

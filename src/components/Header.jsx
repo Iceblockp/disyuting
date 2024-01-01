@@ -50,7 +50,7 @@ const Header = () => {
                     data-aos-delay="1000"
                     className=" w-full flex items-center"
                   >
-                    <div className=" overflow-hidden p-[5px] w-full bg-gradient-to-tr from-secondary to-primary hover:from-secondary hover:to-[#4a91c4]  rounded-[5px]  shadow-inner hover:shadow-2xl hover:shadow-[rgba(98,223,245,0.64)] shadow-[rgba(98,223,245,0.5)] ">
+                    <div className=" overflow-hidden p-[5px] w-full  rounded-[5px]  btnBlue transparentCart ">
                       <div className=" p-[23px]  w-full">
                         <div className=" p-[5px] flex justify-between font-para font-[400] text-[14px] text-text ">
                           <div>

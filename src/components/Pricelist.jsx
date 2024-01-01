@@ -359,6 +359,7 @@ const Pricelist = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="1000"
+            data-aos-easing="ease"
             className=" w-[31%] max-[1395px]:w-[60%]  max-[1012px]:w-[100%]"
           >
             <div className=" flex flex-col gap-[15px]  ">

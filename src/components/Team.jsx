@@ -1,6 +1,6 @@
 import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
 
@@ -23,7 +23,7 @@ const Team = () => {
 
                     <div className=" w-full flex ">
                       <button
-                        className=" rounded-[50px] text-[#1E1E37] text-[15px] font-para font-[600] mx-auto md:mr-0 w-[128px] h-[45px] bg-gradient-to-r from-secondary to-primary "
+                        className=" rounded-[50px] text-[#1E1E37] text-[15px] font-para font-[600] mx-auto md:mr-0 w-[128px] h-[45px] btnBlue "
                         href=""
                       >
                         Read More
@@ -34,12 +34,14 @@ const Team = () => {
               </div>
 
               <div className="block md:flex lg:gap-[30px] justify-between ">
-                <div data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-duration="1000"
-                data-aos-once="true"
-                className=" p-[5px] ">
-                  <div className=" p-[5px] bg-gradient-to-r from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-2xl hover:shadow-[rgba(98,222,245,0.4)] ">
+                <div
+                  data-aos="fade-up"
+                  data-aos-offset="300"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                  className=" p-[5px] "
+                >
+                  <div className=" p-[5px] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm ">
                     <div className=" flex flex-col gap-[40px] ">
                       <div>
                         <img
@@ -108,13 +110,14 @@ const Team = () => {
                 </div>
                 {/* next  */}
                 <div
-                data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-duration="1000"
-                data-aos-delay="500"
-                data-aos-once="true"
-                 className=" p-[5px] ">
-                  <div className=" p-[5px] bg-gradient-to-r from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-2xl hover:shadow-[rgba(98,222,245,0.4)] ">
+                  data-aos="fade-up"
+                  data-aos-offset="300"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                  data-aos-once="true"
+                  className=" p-[5px] "
+                >
+                  <div className=" p-[5px] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm ">
                     <div className=" flex flex-col gap-[40px] ">
                       <div>
                         <img
@@ -183,13 +186,14 @@ const Team = () => {
                 </div>
                 {/* next  */}
                 <div
-                data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-duration="1000"
-                data-aos-delay="1000"
-                data-aos-once="true"
-                 className=" p-[5px] ">
-                  <div className=" p-[5px] bg-gradient-to-r from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-2xl hover:shadow-[rgba(98,222,245,0.4)] ">
+                  data-aos="fade-up"
+                  data-aos-offset="300"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                  data-aos-once="true"
+                  className=" p-[5px] "
+                >
+                  <div className=" p-[5px] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm ">
                     <div className=" flex flex-col gap-[40px] ">
                       <div>
                         <img
@@ -258,13 +262,14 @@ const Team = () => {
                 </div>
                 {/* next  */}
                 <div
-                data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-duration="1000"
-                data-aos-delay="1500"
-                data-aos-once="true"
-                 className=" p-[5px] ">
-                  <div className=" p-[5px] bg-gradient-to-r from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-2xl hover:shadow-[rgba(98,222,245,0.4)] ">
+                  data-aos="fade-up"
+                  data-aos-offset="300"
+                  data-aos-duration="1000"
+                  data-aos-delay="1500"
+                  data-aos-once="true"
+                  className=" p-[5px] "
+                >
+                  <div className=" p-[5px] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
                     <div className=" flex flex-col gap-[40px] ">
                       <div>
                         <img
@@ -333,13 +338,14 @@ const Team = () => {
                 </div>
                 {/* next  */}
                 <div
-                data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-duration="1000"
-                data-aos-delay="2000"
-                data-aos-once="true"
-                 className=" p-[5px] ">
-                  <div className=" p-[5px] bg-gradient-to-r from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-2xl hover:shadow-[rgba(98,222,245,0.4)] ">
+                  data-aos="fade-up"
+                  data-aos-offset="300"
+                  data-aos-duration="1000"
+                  data-aos-delay="2000"
+                  data-aos-once="true"
+                  className=" p-[5px] "
+                >
+                  <div className=" p-[5px] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
                     <div className=" flex flex-col gap-[40px] ">
                       <div>
                         <img

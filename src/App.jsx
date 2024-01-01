@@ -23,9 +23,7 @@ import Map from "./components/Map";
 
 const App = () => {
   return (
-
     
-
         <div className=" min-h-screen bg-cover bg-center bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/Plain-GradientDisyuting.jpg?fbclid=IwAR0lUiyw4t5Tkdh6zRRhTMWtsAqrUG5A6D6HeH_lyu9NPiW5DKAh6QdMYeg')]">
         <NavBar/>
     <Routes>
@@ -46,6 +44,7 @@ const App = () => {
       <Route path="ourProject" element={<><AboutTop header={'Our Project'} title={'PROJECTS THAT WE HAVE PRODUCED'} /><Header /><TopVisual /><Testimonial /><Footer /></>} ></Route>
       <Route path="pages" element={<><AboutTop header={'Our Service'} title={'VISUAL SERVICES PROVIDED'} /><PhotoInput />   <ShortMovie />  <Pricelist /> <AboutAccordian /> <Footer /></>} ></Route>
       <Route path="contactUs" element={<><AboutTop header={'Contact Us'} title={`LET'S COMMUNICATE TO WORK TOGETHER AND CREATE ATTRACTIVE VISUALS`} />   <ContactUs/>  <AboutSecond /><Testimonial /><Map /><Footer /></>} ></Route>
+
 
       </Routes>
     </div>
