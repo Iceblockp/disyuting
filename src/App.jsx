@@ -18,6 +18,8 @@ import TopVisual from "./components/TopVisual";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 
+import Map from "./components/Map";
+
 const App = () => {
   return (
     <div className=" min-h-screen bg-cover bg-center bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/Plain-GradientDisyuting.jpg?fbclid=IwAR0lUiyw4t5Tkdh6zRRhTMWtsAqrUG5A6D6HeH_lyu9NPiW5DKAh6QdMYeg')]">
@@ -33,6 +35,9 @@ const App = () => {
       <Team />
       <TopVisual />
       <Testimonial />
+
+      <Map />
+
       <Footer />
     </div>
   );
