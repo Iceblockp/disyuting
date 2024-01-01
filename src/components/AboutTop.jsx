@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutTop = () => {
+const AboutTop = ({header,title}) => {
   return (
     <div className=" flex w-full  ">
       <div className=" flex mx-0 lg:mx-[5px] w-full my-[100px]">
@@ -10,10 +10,10 @@ const AboutTop = () => {
               <div className=" px-[5px] ">
                 <div className=" py-[5px] flex flex-col gap-[30px] ">
                   <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
-                    <p>About Us</p>
+                    <p>{header}</p>
                   </div>
                   <div className=" flex justify-center w-full text-white font-heading font-[900] text-[36.49px] md:text-[47.78px] ">
-                    <h2>YOU'LL FIND OUT ABOUT DISYUTING</h2>
+                    <h2>{title}</h2>
                   </div>
                   <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
                     <p className=" max-w-[399px] ">
