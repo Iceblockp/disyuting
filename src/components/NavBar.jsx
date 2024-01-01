@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
 
@@ -35,14 +36,18 @@ const NavBar = () => {
               <div className="hidden lg:block">
                 <ul className="flex text-[#E9FCFF] font-para font-[600] ">
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">Home</a>
-                  </li>
-                  <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">About</a>
+                    <a href="">
+                      <Link to='/'>Home</Link>
+                    </a>
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
                     <a href="">
-                      Our Project{" "}
+                      <Link to='/about'>About</Link>
+                    </a>
+                  </li>
+                  <li className=" px-[15px] text-[15px] hover:text-secondary">
+                    <a href="">
+                      <Link to='/ourProject'>Our Project</Link>{" "}
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +64,7 @@ const NavBar = () => {
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
                     <a href="">
-                      pages{" "}
+                      <Link to='/pages'>Pages</Link>{" "}
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +83,7 @@ const NavBar = () => {
                     </a>
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">Contact Us</a>
+                    <a href=""><Link to='/contactUs'>Contact Us</Link></a>
                   </li>
                 </ul>
               </div>
@@ -123,13 +128,13 @@ const NavBar = () => {
               
               <div className=" w-full font-para font-[600] text-accent text-[12px]  ">
                 <div className=" px-[25px] py-[15px] ">
-                  <a href="">Home</a>
+                  <a href=""><Link to='/'>Home</Link></a>
                 </div>
                 <div className=" px-[25px] py-[15px] ">
-                  <a href="">About</a>
+                  <a href=""><Link to='/about'>About</Link></a>
                 </div>
                 <div className=" px-[25px] py-[15px] flex justify-between ">
-                  <div><a href="">Our Project</a></div>
+                  <div><a href=""><Link to='/ourProject'>Our Project</Link></a></div>
                   <div><button className=" px-[15px] py-[2px] flex items-center border border-accent rounded-[15px] ">
                   <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +148,7 @@ const NavBar = () => {
                         </svg></button></div>
                 </div>
                 <div className=" px-[25px] py-[15px] flex justify-between ">
-                  <div><a href="">Pages</a></div>
+                  <div><a href=""><Link to='/pages'>Pages</Link></a></div>
                   <div><button className=" px-[15px] py-[2px] flex items-center border border-accent rounded-[15px]">
                   <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +162,7 @@ const NavBar = () => {
                         </svg></button></div>
                 </div>
                 <div className=" px-[25px] py-[15px] ">
-                  <a href="">Contact Us</a>
+                  <a href=""><Link to='/contactUs'>Contact Us</Link></a>
                 </div>
               </div>
 
