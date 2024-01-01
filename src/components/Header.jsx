@@ -19,7 +19,7 @@ const Header = () => {
                 data-aos-delay="2000"
                 className="  p-[30px] ps-0 w-full flex items-center md:w-[35%] lg:w-[30%] "
               >
-                <div className=" text-[#E9FCFF] capitalize font-heading font-[900] text-[36.49px] md:text-[47.78px] lg:text-[57.33px] ">
+                <div className=" text-[#E9FCFF] capitalize font-heading leading-[1em] tracking-[0.5px] font-[900] text-[36.49px] md:text-[47.78px] lg:text-[61.4px] 2xl:-text-[91px] ">
                   CREATIVE PRODUCTION HOUSE
                 </div>
               </div>
