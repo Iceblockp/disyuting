@@ -96,7 +96,7 @@ const InputFormSection = () => {
                   <div className="text-start">
                     <button
                       type="submit"
-                      className="  font-para px-10 py-3 bg-gradient-to-r from-blue-300 to-cyan-600 text-white rounded-full  hover:from-cyan-600 hover:to-cyan-300  focus:border-[#62DEF5]"
+                      className="  font-para px-10 py-3 btnBlue rounded-3xl"
                     >
                       Send Message
                     </button>

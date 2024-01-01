@@ -5,7 +5,7 @@ Aos.init();
 
 const SecSection = () => {
   return (
-    <div className="w-full flex mb-[200px]">
+    <div className="w-full flex mb-[200px] mt-10">
       <div className=" flex mx-0 lg:mx-[5px] w-full">
         <div className=" w-full lg:w-[89%] 2xl:max-w-[1620px] mx-auto">
           <div className=" w-full px-[30px] lg:px-0 py-[10px] lg:py-[5px]">
@@ -14,7 +14,8 @@ const SecSection = () => {
               <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
+                className=" border-slate-300 hover:border-[#62DEF5] 
+                border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
                   <div className=" w-full bg-cover md:w-5/12 h-[163px] bg-center md:bg-left-top rounded-lg bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/stylish-futuristic-blonde-in-cyberpunk-style-on-a-2022-08-31-22-41-37-utc.jpg')]"></div>
@@ -59,7 +60,7 @@ const SecSection = () => {
               {/* sec div */}
               <div
                 data-aos="fade-up"
-                data-aos-duration="1600"
+                data-aos-duration="2000"
                 className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
@@ -104,7 +105,7 @@ const SecSection = () => {
               {/* third div */}
               <div
                 data-aos="fade-up"
-                data-aos-duration="2300"
+                data-aos-duration="2500"
                 className=" border-slate-300 hover:border-[#62DEF5] border-l border-b shadow-[0_0px_20px_0px] w-full  hover:shadow-[#62DEF5] flex items-center justify-center"
               >
                 <div className=" w-full md:flex bg-white bg-opacity-20 p-1 rounded-sm backdrop-blur-sm">
@@ -112,8 +113,8 @@ const SecSection = () => {
 
                   <div className="px-4 md:w-7/12">
                     <div className=" flex justify-between items-center mb-20">
-                      <div className=" text-slate-300">Mv Dance</div>
-                      <div className=" text-slate-300">05 Min</div>
+                      <div className=" text-slate-300">Documenter</div>
+                      <div className=" text-slate-300">10 Min</div>
                     </div>
 
                     <div className="flex justify-between items-center  text-start">
@@ -157,7 +158,7 @@ const SecSection = () => {
 
                   <div className="px-4 md:w-7/12">
                     <div className=" flex justify-between items-center mb-20">
-                      <div className=" text-slate-300">Mv Dance</div>
+                      <div className=" text-slate-300">Advertising</div>
                       <div className=" text-slate-300">05 Min</div>
                     </div>
 
