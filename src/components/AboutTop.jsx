@@ -1,0 +1,53 @@
+import React from "react";
+
+const AboutTop = () => {
+  return (
+    <div className=" flex w-full  ">
+      <div className=" flex mx-0 lg:mx-[5px] w-full my-[100px]">
+        <div className=" w-full lg:w-[91%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
+          <div className="  px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full ">
+            <div className=" py-[30px] ">
+              <div className=" px-[5px] ">
+                <div className=" py-[5px] flex flex-col gap-[30px] ">
+                  <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
+                    <p>About Us</p>
+                  </div>
+                  <div className=" flex justify-center w-full text-white font-heading font-[900] text-[36.49px] md:text-[47.78px] ">
+                    <h2>YOU'LL FIND OUT ABOUT DISYUTING</h2>
+                  </div>
+                  <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
+                    <p className=" max-w-[399px] ">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                      dapibus leo.
+                    </p>
+                  </div>
+                  <div className=" flex justify-center w-full text-white ">
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        className="w-[50px] h-[50px]"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m19.5 4.5-15 15m0 0h11.25m-11.25 0V8.25"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AboutTop;
