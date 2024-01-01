@@ -1,14 +1,14 @@
 import React from "react";
 import AOS from "aos";
 import "../../node_modules/aos/dist/aos.css";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 AOS.init();
 
 const Header = () => {
   return (
     <div className=" flex w-full ">
       <div className=" flex mx-0 lg:mx-[5px] w-full">
-        <div className=" w-full lg:w-[91%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
+        <div className=" w-full lg:w-[89%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
           <div className="  px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full ">
             <div className=" w-full flex flex-col md:flex-row justify-between gap-[15px] ">
               <div
@@ -23,15 +23,15 @@ const Header = () => {
                   CREATIVE PRODUCTION HOUSE
                 </div>
               </div>
-              <div className=" p-[5px] w-full md:w-[60%] ">
-                <div className=" w-full bg-contain bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-[15px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/metaverse-digital-cyber-world-technology-man-with-2022-11-18-18-39-06-utc-EDT.png')]  ">
+              <div className=" p-[5px] w-full md:w-[60%]  ">
+                <div className=" w-full bg-contain bg-center bg-no-repeat grid grid-cols-1 xl:grid-cols-2 3xl:grid-cols-2 gap-[15px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/metaverse-digital-cyber-world-technology-man-with-2022-11-18-18-39-06-utc-EDT.png')] 3xl:h-[700px] ">
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1500"
                     className=" w-full items-center"
                   >
-                    <div className=" p-[5px] w-full  bg-gradient-to-tr from-[#88939498] to-[#98c0dfce] hover:from-[#a5b3b5ae] hover:to-[#98c0dfe7]  rounded-[5px]  shadow-inner hover:shadow-2xl hover:shadow-[rgba(98,223,245,0.64)] shadow-[rgba(98,223,245,0.5)] ">
-                      <div className=" p-[23px]  w-full">
+                    <div className=" p-[5px] w-full  bg-gradient-to-tr from-[#88939498] to-[#98c0dfce] hover:from-[#a5b3b5ae] hover:to-[#98c0dfe7]  rounded-[5px]  shadow-inner hover:shadow-2xl hover:shadow-[rgba(98,223,245,0.64)] shadow-[rgba(98,223,245,0.5)]  ">
+                      <div className=" p-[23px] w-full">
                         <div className=" p-[5px] flex justify-between font-para font-[400] text-[14px] text-text ">
                           <div>Disyuting</div>
                           <div>The Best Service</div>
@@ -72,7 +72,7 @@ const Header = () => {
                         </div>
                         <div className=" p-[5px] flex flex-col gap-[15px] ">
                           <h5 className=" text-[#1E1E37] font-heading font-[900] text-[90px] leading-[0.87em] ">
-                           <CountUp end={7892} duration={7} />
+                            <CountUp end={7892} duration={7} />
                           </h5>
                           <p className=" text-[#1E1E37] text-[15px] font-[400] font-para capitalize">
                             CLIENT TRUSTED
