@@ -1,4 +1,5 @@
 import React from "react";
+import ContactUs from "./components/ContactUs";
 import AboutTop from "./components/AboutTop";
 import AboutSecond from "./components/AboutSecond";
 import AboutAccordian from "./components/AboutAccordian";
@@ -43,13 +44,14 @@ const App = () => {
       <Route path="about" element={<><AboutTop header={'About Us'} title={`YOU'LL FIND OUT ABOUT DISYUTING`} /><AboutSecond />< AboutJourney /><Awards /><Team /><AboutAccordian /><InputFormSection /><Footer /></>} ></Route>
       <Route path="ourProject" element={<><AboutTop header={'Our Project'} title={'PROJECTS THAT WE HAVE PRODUCED'} /><Header /><TopVisual /><Testimonial /><Footer /></>} ></Route>
       <Route path="pages" element={<><AboutTop header={'Our Service'} title={'VISUAL SERVICES PROVIDED'} /><PhotoInput />   <ShortMovie />  <Pricelist /> <AboutAccordian /> <Footer /></>} ></Route>
-      <Route path="contactUs" element={<><AboutTop header={'Contact Us'} title={`LET'S COMMUNICATE TO WORK TOGETHER AND CREATE ATTRACTIVE VISUALS`} />   <AboutSecond /><Testimonial /><Map /><Footer /></>} ></Route>
+      <Route path="contactUs" element={<><AboutTop header={'Contact Us'} title={`LET'S COMMUNICATE TO WORK TOGETHER AND CREATE ATTRACTIVE VISUALS`} />   <ContactUs/>  <AboutSecond /><Testimonial /><Map /><Footer /></>} ></Route>
       </Routes>
       
 
     </div>
     
   );
+
 };
 
    
