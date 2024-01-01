@@ -12,8 +12,11 @@ const Production = () => {
           <div className="  px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full ">
             <div className=" p-[5px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 md:gap-[40px] ">
               <div className=" flex mb-[50px] flex-col gap-[30px] col-span-1 xl:col-span-5 bg-no-repeat bg-contain bg-[70%] bg-[url(https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/director-chair-and-clapper-board-and-megaphone-in-2023-03-28-21-06-41-utc-EDITED.png)] ">
-                <div data-aos="fade-up"
-                data-aos-duration="1000" className=" p-[30px] h-[193px] rounded-[5px] md:mt-[30px] w-full md:max-w-[214.74px] md:h-[272px] mx-auto bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px 12px 26px 5px] bg-[rgba(98,222,245,0.4)] ">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  className=" p-[30px] h-[193px] rounded-[5px] md:mt-[30px] w-full md:max-w-[214.74px] md:h-[272px] mx-auto border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm  "
+                >
                   <div className=" flex flex-col gap-[15px] text-center  ">
                     <div className="  leading-[1.1em] text-[90px] font-para font-bold text-[#E9FCFF] ">
                       <CountUp end={20} duration={5} />+
@@ -27,9 +30,10 @@ const Production = () => {
               </div>
 
               <div
-              data-aos="fade-left"
-              data-aos-duration="1000"
-               className=" p-[5px] md:max-w-[365.99px] xl:max-w-[465px] col-span-1 xl:col-span-7 ">
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                className=" p-[5px] md:max-w-[365.99px] xl:max-w-[465px] col-span-1 xl:col-span-7 "
+              >
                 <div className="">
                   <div className=" max-w-[405px] text-center text-[#CADADD] font-para font-[600] text-[16px] xl:text-[22px] md:text-start ">
                     Project Production

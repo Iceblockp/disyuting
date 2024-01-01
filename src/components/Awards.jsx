@@ -63,6 +63,7 @@ const Awards = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-delay=""
+                  data-aos-offset="120"
                   className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm"
                 >
                   <div className="p-[30px] md:p-[15px]">

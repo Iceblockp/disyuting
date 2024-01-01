@@ -40,7 +40,7 @@ const App = () => {
               <Team />
               <TopVisual />
               <Testimonial />
-              <Map />
+
               <Footer />
             </>
           }
