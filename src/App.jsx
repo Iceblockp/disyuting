@@ -5,6 +5,7 @@ import SecSection from "./components/SecSection";
 import SecSection2 from "./components/SecSection2";
 import Production from "./components/Production";
 import Awards from "./Awards";
+import PhotoInput from "./components/PhotoInput";
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
       <SecSection2 />
     <Production />
       <Awards />
+    <PhotoInput/>
+
     </div>
   );
 };
