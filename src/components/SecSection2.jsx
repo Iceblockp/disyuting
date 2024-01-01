@@ -67,7 +67,7 @@ const SecSection2 = () => {
                           <div className="">
                             <div className=" xl:mb-3">
                               <div className="">
-                                <h2 className=" text-slate-100 font-heading text-2xl font-bold select-none sm:text-[18px] sm:mb-2">
+                                <h2 className=" text-slate-100 font-para text-[16px] md:text-[19.2px] lg font-bold select-none 2xl:text-[22px] sm:mb-2">
                                   Motion and Still Production
                                 </h2>
                               </div>
@@ -93,7 +93,7 @@ const SecSection2 = () => {
                           <div className="">
                             <div className=" xl:mb-3">
                               <div className="">
-                                <h2 className="text-slate-100 font-heading text-xl font-bold select-none sm:text-[18px] sm:mb-2">
+                                <h2 className="text-slate-100  font-para text-[16px] md:text-[19.2px] lg font-bold select-none 2xl:text-[22px]  sm:mb-2">
                                   Comes from Bali Island
                                 </h2>
                               </div>

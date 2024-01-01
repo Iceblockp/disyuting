@@ -17,9 +17,9 @@ const Header = () => {
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1500"
                 data-aos-delay="2000"
-                className="  p-[30px] ps-0 w-full md:w-[35%] lg:w-[30%] "
+                className="  p-[30px] ps-0 w-full flex items-center md:w-[35%] lg:w-[30%] "
               >
-                <div className=" text-[#E9FCFF] capitalize font-heading font-[900] text-[36.49px] md:text-[47.78px] ">
+                <div className=" text-[#E9FCFF] capitalize font-heading font-[900] text-[36.49px] md:text-[47.78px] lg:text-[57.33px] ">
                   CREATIVE PRODUCTION HOUSE
                 </div>
               </div>
