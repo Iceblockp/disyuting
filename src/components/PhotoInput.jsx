@@ -71,8 +71,12 @@ const PhotoInput = () => {
                     data-aos-once="true"
                     data-aos="fade-up"
                   >
+
                     <div className=" grid grid-cols-1 md:grid-cols-7 text-center border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
                       <div className=" grid grid-cols-6 col-span-1 md:col-span-6 xl:p-16">
+         <div className=" backdrop-blur-lg grid grid-cols-1 md:grid-cols-7 text-center border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart  rounded-lg">
+                      <div className=" grid grid-cols-6 col-span-1 md:col-span-6 p-7">
+
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
                           <div className=" mx-auto text-start">
                             <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
@@ -134,7 +138,7 @@ const PhotoInput = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="flex col-span-1 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg">
+                      <div className="flex col-span-1 items-center btnBlue">
                         <div className="mx-auto lg:w-[203px]">
                           <div className=" mx-auto">
                             <div className=" py-5">

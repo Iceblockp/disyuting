@@ -1,12 +1,19 @@
 import React from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({});
 const Pricelist = () => {
   return (
     <div className=" pb-[200px] ">
       <div className="mx-auto p-1 w-[1305px] max-[1395px]:w-[89%]  ">
         <div className="flex flex-col min-[1425px]:flex-row gap-[50px] max-[1012px]:flex-col-reverse  ">
           <div className=" w-[67%] max-[770px]:w-[100%] h-[980px] max-[1012px]:h-auto bg-contain bg-no-repeat bg-center bg-[url(https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/happy-black-female-listening-music-with-digital-ta-2023-03-23-03-44-16-utcEDT-1.png)] flex items-end max-[1012px]:items-start flex-row max-[1012px]:flex-col gap-[30px]">
-            <div className="w-[31%] max-[1012px]:w-[100%] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay=""
+              className="w-[31%] max-[1012px]:w-[100%] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm"
+            >
               <div className=" p-[30px]">
                 <h1
                   className=" text-xl max-sm:text-lg leading-16 font-bold font-para uppercase text-center"
@@ -119,7 +126,12 @@ const Pricelist = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[31%] max-[1012px]:w-[100%] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              className="w-[31%] max-[1012px]:w-[100%] border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm"
+            >
               <div className=" p-[30px]">
                 <h1
                   className=" text-xl max-sm:text-lg leading-16 font-bold font-para uppercase text-center"
@@ -228,7 +240,12 @@ const Pricelist = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[31%] max-[1012px]:w-[100%] overflow-hidden  border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+              className="w-[31%] max-[1012px]:w-[100%] overflow-hidden  border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm"
+            >
               <div className=" p-[30px]">
                 <h1
                   className=" text-xl max-sm:text-lg leading-16 font-bold font-para uppercase text-center "
@@ -338,7 +355,13 @@ const Pricelist = () => {
               </div>
             </div>
           </div>
-          <div className=" w-[31%] max-[1395px]:w-[60%]  max-[1012px]:w-[100%]">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+            data-aos-easing="ease"
+            className=" w-[31%] max-[1395px]:w-[60%]  max-[1012px]:w-[100%]"
+          >
             <div className=" flex flex-col gap-[15px]  ">
               <div className="mt-[300px] max-[1420px]:mt-[0px]">
                 <h1 className="w-[60%]  text-6xl font-bold tracking-wide font-heading text-white flex uppercase max-[1395px]:w-[100%] max-[1012px]:text-5xl max-[770px]:text-4xl">
