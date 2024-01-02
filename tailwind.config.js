@@ -50,6 +50,7 @@ export default {
         '2xl': '1427px',
         
       },
+      
     },
   },
 
