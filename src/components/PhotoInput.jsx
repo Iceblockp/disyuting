@@ -71,12 +71,8 @@ const PhotoInput = () => {
                     data-aos-once="true"
                     data-aos="fade-up"
                   >
-
-                    <div className=" grid grid-cols-1 md:grid-cols-7 text-center border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
+                    <div className=" grid grid-cols-1 md:grid-cols-7 rounded-lg text-center border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
                       <div className=" grid grid-cols-6 col-span-1 md:col-span-6 xl:p-16">
-         <div className=" backdrop-blur-lg grid grid-cols-1 md:grid-cols-7 text-center border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart  rounded-lg">
-                      <div className=" grid grid-cols-6 col-span-1 md:col-span-6 p-7">
-
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
                           <div className=" mx-auto text-start">
                             <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
@@ -137,36 +133,37 @@ const PhotoInput = () => {
                             </p>
                           </div>
                         </div>
+
                       </div>
-                      <div className="flex col-span-1 items-center btnBlue">
-                        <div className="mx-auto lg:w-[203px]">
-                          <div className=" mx-auto">
-                            <div className=" py-5">
-                              <div className=" mx-auto">
-                                <div className=" flex justify-center items-center">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    strokeWidth={1.5}
-                                    stroke="currentColor"
-                                    className="w-10 h-10 bg-black rounded-3xl text-white "
-                                  >
-                                    <path
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                      d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-                                    />
-                                  </svg>
+                        <div className="flex col-span-1 items-center rounded-lg btnBlue">
+                          <div className="flex mx-auto lg:w-[203px]">
+                            <div className=" mx-auto">
+                              <div className=" py-5">
+                                <div className=" mx-auto">
+                                  <div className=" flex justify-center items-center">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      strokeWidth={1.5}
+                                      stroke="currentColor"
+                                      className="w-10 h-10 bg-black rounded-3xl text-white "
+                                    >
+                                      <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                                      />
+                                    </svg>
+                                  </div>
+                                  <p className="justify-center items-center text-center text-black font-para text-[25px]">
+                                    Explore
+                                  </p>
                                 </div>
-                                <p className="justify-center items-center text-center text-black font-para text-[25px]">
-                                  Explore
-                                </p>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -176,9 +173,6 @@ const PhotoInput = () => {
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
   );
 };
 
