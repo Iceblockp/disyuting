@@ -11,17 +11,16 @@ const PhotoInput = () => {
           <div className=" w-full px-[30px] lg:px-0 py-[10px] lg:py-[5px]">
             <div className="flex w-full">
               <div className="flex mx-0 sm:p-10 md:px-5 lg:mx-[5px] w-full">
-                <div className="w-full mx-auto">
-                  <div className="px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full"></div>
-                  <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-10 py-8">
+                <div className="w-full mx-auto h-full">
+                  <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-10  xl:gap-x-[100px] py-8">
                     <div className="md:w-full col-span-1 md:col-span-2 lg:col-span-4 flex">
-                      <div className=" lg:max-w-[416px]  mx-auto flex justify-center items-center text-center">
-                        <div className="lg:text-start text-center">
-                          <h3 className="md:p-5 lg:p-0 uppercase text-[33px] font-bold font-heading text-white">
+                      <div className=" lg:w-[810px] mx-auto flex justify-center items-center text-center">
+                        <div className="lg:text-start mt-auto  text-center">
+                          <h3 className="md:p-5 lg:p-0 uppercase xl:text-[64px] text-[30px] tracking-[0.5px] leading-[1em] font-bold font-heading text-white">
                             we created high quality visuals with the services
                             provided
                           </h3>
-                          <p className=" font-para text-white text-[14px] ">
+                          <p className=" font-para text-white xl:text-[20px] ">
                             Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Odio quisquam ex sapiente consequuntur?
                           </p>
@@ -31,21 +30,21 @@ const PhotoInput = () => {
                     <div
                       data-aos="fade-left"
                       data-aos-duration="2500"
-                      className="md:w-full col-span-1 md:col-span-2 lg:col-span-6"
+                      className="md:w-full col-span-1 md:col-span-2 lg:col-span-6 "
                     >
-                      <div className=" bg-cover bg-center rounded-lg relative z-50 w-full lg:h-[300px] h-[163px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/side-view-of-cyberpunk-girl-in-black-leather-cloth-2022-02-03-00-22-06-utc.jpg')] ">
+                      <div className=" bg-cover bg-center rounded-lg relative z-50 xl:h-[650px] h-[163px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/side-view-of-cyberpunk-girl-in-black-leather-cloth-2022-02-03-00-22-06-utc.jpg')] ">
                         <div className="relative">
                           <div>
                             <p className=" text-[16px] font-para font-bold mt-5 p-5 text-white ">
                               Discover more of our visual results
                             </p>
-                            <div className="p-5 lg:mt-36 relative">
+                            <div className="p-5 lg:mt-[480px] relative">
                               <input
                                 placeholder="Search..."
-                                className=" shadow-xl opacity-10 p-3 w-full caret-slate-200 rounded-3xl"
+                                className="shadow-[0_0px_20px_0px] backdrop-blur-md hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10 p-3 w-full caret-slate-200 rounded-3xl"
                                 type="search"
                               />
-                              <button className="flex justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-3xl top-[23%] right-5 w-[64px] h-[49px] absolute">
+                              <button className="flex justify-center items-center btnBlue rounded-3xl top-[23%] right-5 w-[64px] h-[49px] absolute">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   fill="none"
@@ -72,64 +71,68 @@ const PhotoInput = () => {
                     data-aos-once="true"
                     data-aos="fade-up"
                   >
-                    <div className=" backdrop-blur-lg grid grid-cols-1 md:grid-cols-7 text-center border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart  rounded-lg">
+
+                    <div className=" grid grid-cols-1 md:grid-cols-7 text-center border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
+                      <div className=" grid grid-cols-6 col-span-1 md:col-span-6 xl:p-16">
+         <div className=" backdrop-blur-lg grid grid-cols-1 md:grid-cols-7 text-center border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart  rounded-lg">
                       <div className=" grid grid-cols-6 col-span-1 md:col-span-6 p-7">
+
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
-                          <div className=" mx-auto">
-                            <h4 className=" text text-white text-xl font-bold mb-2 ">
+                          <div className=" mx-auto text-start">
+                            <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
                               Short Movie
                             </h4>
-                            <p className=" text-white line-clamp-3">
+                            <p className=" text-white">
                               Lorem ipsum dolor sit amet
                             </p>
                           </div>
                         </div>
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
-                          <div className=" mx-auto">
-                            <h4 className=" text text-white text-xl font-bold mb-2 ">
+                          <div className=" mx-auto text-start">
+                            <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
                               Documenter
                             </h4>
-                            <p className=" text-white line-clamp-3">
+                            <p className=" text-white">
                               Lorem ipsum dolor sit amet
                             </p>
                           </div>
                         </div>
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
-                          <div className=" mx-auto">
-                            <h4 className=" text text-white text-xl font-bold mb-2 ">
+                          <div className=" mx-auto text-start">
+                            <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
                               Advertising
                             </h4>
-                            <p className=" text-white line-clamp-3">
+                            <p className=" text-white">
                               Lorem ipsum dolor sit amet
                             </p>
                           </div>
                         </div>
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
-                          <div className=" mx-auto">
-                            <h4 className=" text text-white text-xl font-bold mb-2  ">
+                          <div className=" mx-auto text-start">
+                            <h4 className=" text text-white xl:text-[23px] font-bold mb-2  ">
                               Photography
                             </h4>
-                            <p className=" text-white line-clamp-3">
+                            <p className=" text-white">
                               Lorem ipsum dolor sit amet
                             </p>
                           </div>
                         </div>
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
-                          <div className=" mx-auto">
-                            <h4 className=" text text-white text-xl font-bold mb-2 ">
+                          <div className=" mx-auto text-start">
+                            <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
                               Broadcasting
                             </h4>
-                            <p className=" text-white line-clamp-3">
+                            <p className=" text-white">
                               Lorem ipsum dolor sit amet
                             </p>
                           </div>
                         </div>
                         <div className="flex col-span-6 sm:col-span-3 lg:col-span-2 2xl:col-span-1 py-4 px-4">
-                          <div className=" mx-auto">
-                            <h4 className=" text text-white text-xl font-bold mb-2 ">
+                          <div className=" mx-auto text-start">
+                            <h4 className=" text text-white xl:text-[23px] font-bold mb-2 ">
                               360º Visual
                             </h4>
-                            <p className=" text-white line-clamp-3">
+                            <p className=" text-white">
                               Lorem ipsum dolor sit amet
                             </p>
                           </div>
