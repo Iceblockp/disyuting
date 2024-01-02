@@ -92,7 +92,7 @@ const AboutJourney = () => {
                   data-aos-duration="1000"
                   data-aos-delay="1000" className=" w-full md:w-[40%] p-[30px] rounded-[5px] full border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm ">
 
-                  <div 
+                 
                   
                    
                     <div className=" mb-[16px]">
@@ -102,6 +102,8 @@ const AboutJourney = () => {
                         alt=""
                       />
                     </div>
+
+                    
                     <div>
                       <h5 className=" mt-[8px] mb-[5px] text-[19.2px] text-[#E9FCFF] font-para font-[600] ">
                         Best Team Creative
@@ -117,9 +119,6 @@ const AboutJourney = () => {
                    data-aos="fade-left"
                    data-aos-duration="1000"
                    data-aos-delay="1500" className=" rounded-[5px] h-[238.33px] 2xl:h-[282px] formShadow bg-cover bg-center w-full md:w-[60%] p-[5px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/edit-video-production-control-panel-in-studio-edi-2022-09-28-21-45-01-utc-e1700727111716.jpg')] "></div>
-
-                   
-                    
                 </div>
               </div>
             </div>
