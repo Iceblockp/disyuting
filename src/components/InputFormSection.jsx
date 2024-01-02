@@ -18,7 +18,7 @@ const InputFormSection = () => {
                     READY TO COLLABORATE WITH THE BEST VISUAL PRODUCTION HOUSE?
                   </h1>
                 </div>
-                <div className=" mt-5">
+                <div className=" mt-5 xs:mb-[20px]">
                   <p className="text-center lg:text-start text-slate-300 max-w-[403px] xl:max-w-[508px] lg:tracking-tight">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
