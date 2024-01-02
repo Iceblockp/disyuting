@@ -11,6 +11,7 @@
 .formShadow:hover {
   border-color: #62def5;
   box-shadow: 0px 12px 26px 5px rgba(98, 222, 245, 0.4);
+  transition: 0.3s ease-in;
 }
 
 .transparentCart:hover {
@@ -18,14 +19,22 @@
   background-image: linear-gradient(22deg, #e9fcff0f 0%, #98c0dfb5 55%);
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  transition-duration: 0.3s;
+  transition: 0.3s ease-in;
+
   border-color: #62def5;
 
   box-shadow: 0px 12px 26px 5px rgba(98, 222, 245, 0.4);
 }
 .transparentCart {
   background-image: linear-gradient(45deg, #e9fcff0f 0%, #98c0dfb5 100%);
-  transition-duration: 0.5s;
+  transition: 0.3s ease-in;
+}
+.accord {
+  background-image: linear-gradient(45deg, #e9fcff0f 0%, #98c0dfb5 100%);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e9fcff0f;
+  transition: 0.3s ease-in;
 }
 
 .btnBlue {
@@ -35,6 +44,7 @@
 
 .btnBlue:hover {
   background-image: linear-gradient(45deg, #62def5 60%, #3089f3 100%);
+  transition: 0.3s ease-in;
 }
 
 .bg-custom-blue {

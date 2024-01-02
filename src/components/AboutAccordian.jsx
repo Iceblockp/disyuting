@@ -18,9 +18,9 @@ const AboutAccordian = () => {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="500"
-                    className=" p-[30px]  rounded-[5px] w-full  mx-auto bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)] "
+                    className=" p-[30px]  rounded-[5px] w-full  mx-auto border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm  "
                   >
-                    <div className=" font-heading font-[900] text-[#E9FCFF] text-[33.18px] " >
+                    <div className=" font-heading font-[900] text-[#E9FCFF] text-[33.18px] ">
                       <h2>FREQUENTLY ASKED QUESTIONS</h2>
                     </div>
                   </div>
@@ -30,7 +30,7 @@ const AboutAccordian = () => {
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className=" flex flex-col justify-between w-full p-[30px] rounded-[5px] 2xl:w-[70%] bg-cover bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)]  "
+                    className=" flex flex-col justify-between w-full p-[30px]  2xl:w-[70%] bg-cover  border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm  "
                   >
                     <div className=" text-white mb-[32px] ">
                       <svg
@@ -57,7 +57,7 @@ const AboutAccordian = () => {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="1000"
-                    className=" rounded-[5px] p-[30px] bg-cover w-full 2xl:w-full 2xl:self-end bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)]  "
+                    className=" rounded-[5px] p-[30px] bg-cover w-full 2xl:w-full 2xl:self-endborder  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm   "
                   >
                     <div className=" text-white mb-[32px] ">
                       <svg
@@ -87,7 +87,7 @@ const AboutAccordian = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-delay="1000"
-                  className=" rounded-[5px] p-[5px] bg-cover   w-full bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] hover:shadow-[0px_0px_20px_-5px]  hover:shadow-[rgba(98,222,245)] flex flex-col gap-[10px] "
+                  className=" rounded-[5px] p-[5px] bg-cover   w-full border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm   flex flex-col gap-[10px] "
                 >
                   <AccordianPart title={"What is a cinematic video?"} />
                   <AccordianPart title={"How can I use your services?"} />
