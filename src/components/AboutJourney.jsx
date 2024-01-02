@@ -70,7 +70,7 @@ const AboutJourney = () => {
                     className=" w-full md:w-[40%] p-[30px] rounded-[5px] full border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm  ">
 
 
-                  <div 
+                  
                    
                     <div className=" flex justify-center items-center ">
                       <div className=" text-center">
