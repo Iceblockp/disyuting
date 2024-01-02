@@ -58,18 +58,28 @@ const AboutJourney = () => {
               <div className=" w-full 2xl:w-[70%] p-[5px] flex flex-col gap-[30px] ">
                 <div className=" w-full flex flex-col md:flex-row gap-[30px] ">
                   {/* image  */}
-                  <div data-aos="fade-left" data-aos-duration="1000" className=" shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)] bg-cover bg-center rounded-[5px] h-[238.33px] 2xl:h-[282px] w-full md:w-[60%] p-[5px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/behind-the-scenes-of-video-production-in-studio-wh-2022-11-16-18-06-36-utc-800x283.jpg')] "></div>
+
+                  <div                    
+                  data-aos="fade-left"
+                  data-aos-duration="1000" className=" formShadow bg-cover bg-center rounded-[5px] h-[238.33px] 2xl:h-[282px] w-full md:w-[60%] p-[5px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/behind-the-scenes-of-video-production-in-studio-wh-2022-11-16-18-06-36-utc-800x283.jpg')] "></div>
                   {/* letter  */}
-                  <div data-aos="fade-left"
+                  <div 
+                    data-aos="fade-left"
                   data-aos-duration="1000"
                   data-aos-delay="500"
-                   className=" w-full md:w-[40%] p-[30px] rounded-[5px] bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)]   ">
+                    className=" w-full md:w-[40%] p-[30px] rounded-[5px] full border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm  ">
+
+
+                  <div 
+                   
                     <div className=" flex justify-center items-center ">
-                      <div className=" text-center" >
+                      <div className=" text-center">
                         <h2 className=" font-sans font-[900] text-white text-[90px] ">
                           <CountUp end={20} duration={5} />+
                         </h2>
-                        <p className=" font-para font-[400] text-[#CADADD] text-[15px] ">Years Experience</p>
+                        <p className=" font-para font-[400] text-[#CADADD] text-[15px] ">
+                          Years Experience
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -77,26 +87,39 @@ const AboutJourney = () => {
 
                 <div className=" w-full flex flex-col md:flex-row gap-[30px] ">
                   {/* letter  */}
-                  <div 
-                  data-aos="fade-left"
+
+                  <div data-aos="fade-left"
                   data-aos-duration="1000"
-                  data-aos-delay="1000"
-                   className=" w-full md:w-[40%] p-[30px] rounded-[5px] bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)]   ">
+                  data-aos-delay="1000" className=" w-full md:w-[40%] p-[30px] rounded-[5px] full border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm ">
+
+                  <div 
+                  
+                   
                     <div className=" mb-[16px]">
-                      <img className=" w-[94.73px] h-[94.73px] " src="https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/Holo_Effect_02.png" alt="" />
+                      <img
+                        className=" w-[94.73px] h-[94.73px] "
+                        src="https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/Holo_Effect_02.png"
+                        alt=""
+                      />
                     </div>
                     <div>
-                      <h5 className=" mt-[8px] mb-[5px] text-[19.2px] text-[#E9FCFF] font-para font-[600] ">Best Team Creative</h5>
-                      <p className=" font-para font-[400] text-[#D5E8EB] text-[16px] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <h5 className=" mt-[8px] mb-[5px] text-[19.2px] text-[#E9FCFF] font-para font-[600] ">
+                        Best Team Creative
+                      </h5>
+                      <p className=" font-para font-[400] text-[#D5E8EB] text-[16px] ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
                     </div>
                   </div>
-                   {/* image  */}
-                   <div
+
+                  {/* image  */}
+                  <div 
                    data-aos="fade-left"
                    data-aos-duration="1000"
-                   data-aos-delay="1500"
-                    className=" rounded-[5px] h-[238.33px] 2xl:h-[282px] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)] bg-cover bg-center w-full md:w-[60%] p-[5px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/edit-video-production-control-panel-in-studio-edi-2022-09-28-21-45-01-utc-e1700727111716.jpg')] "></div>
-                 
+                   data-aos-delay="1500" className=" rounded-[5px] h-[238.33px] 2xl:h-[282px] formShadow bg-cover bg-center w-full md:w-[60%] p-[5px] bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/edit-video-production-control-panel-in-studio-edi-2022-09-28-21-45-01-utc-e1700727111716.jpg')] "></div>
+
+                   
+                    
                 </div>
               </div>
             </div>

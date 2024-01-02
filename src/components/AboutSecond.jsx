@@ -16,7 +16,7 @@ const AboutSecond = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-delay="500"
-                  className=" p-[30px]  rounded-[5px] w-full md:w-[62%]  mx-auto bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)] "
+                  className=" p-[30px]  rounded-[5px] w-full md:w-[62%]  mx-auto full border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm"
                 >
                   <div className=" flex flex-col text-start  ">
                     <div className=" text-[90px] font-bold text-[#E9FCFF] ">
@@ -39,25 +39,28 @@ const AboutSecond = () => {
                       <div className=" font-heading ">
                         <CountUp end={30928} duration={5} />
                       </div>
-                      <p className="  font-para text-accent text-[14px] ">CLIENT TRUSTED</p>
+                      <p className="  font-para text-accent text-[14px] ">
+                        CLIENT TRUSTED
+                      </p>
                     </div>
 
                     <div className=" mt-[15px] flex justify-between items-center text-accent text-[16px] font-para font-[600] ">
-                        <div>
-                          <p>All Client Happy</p>
-                        </div>
-                        <div className="w-[133.19px] text-end">
-                          <p>And Continues to Increase</p>
-                        </div>
+                      <div>
+                        <p>All Client Happy</p>
+                      </div>
+                      <div className="w-[133.19px] text-end">
+                        <p>And Continues to Increase</p>
+                      </div>
                     </div>
                   </div>
                 </div>
 
                 <div className=" flex flex-col md:flex-row 2xl:flex-col justify-between p-[5px] gap-[20px] ">
                   <div
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                   className=" flex flex-col justify-between w-full p-[30px]  md:w-[65%] rounded-[5px] 2xl:w-full  h-[146.71px] bg-cover bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)]  ">
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    className=" flex flex-col justify-between w-full p-[30px]  md:w-[65%] rounded-[5px] 2xl:w-full  h-[146.71px] bg-cover full border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm  "
+                  >
                     <div className=" flex gap-[15px] font-para FONT-[600] text-accent text-[16px] ">
                       <div>Disyuting</div>
                       <div className=" w-[40%] text-end ">Since 2023</div>
@@ -68,12 +71,17 @@ const AboutSecond = () => {
                   </div>
 
                   <div
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-delay="1000"
-                   className=" rounded-[5px] p-[30px]  h-[161.67px] bg-cover w-full md:w-[35%] 2xl:w-[60%] 2xl:self-end bg-gradient-to-tr from-[#E9FCFF0F] to-[#98C0DFB5] border border-[#62DEF5] shadow-[0px_0px_20px_-20px] hover:shadow-[0px_0px_20px_-5px] shadow-[rgba(98,222,245)] hover:shadow-[rgba(98,222,245)] flex justify-center items-center  ">
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="1000"
+                    className=" rounded-[5px] p-[30px]  h-[161.67px] bg-cover w-full md:w-[35%] 2xl:w-[60%] 2xl:self-end full border border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm flex justify-center items-center  "
+                  >
                     <div className=" max-w-[218px] ">
-                    <img src="https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/logoipsum-286.png" alt="" className=" w-full  " />
+                      <img
+                        src="https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/logoipsum-286.png"
+                        alt=""
+                        className=" w-full  "
+                      />
                     </div>
                   </div>
                 </div>
