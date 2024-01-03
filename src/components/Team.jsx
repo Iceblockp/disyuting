@@ -58,14 +58,15 @@ const Team = () => {
                             Leader Of Disyuting
                           </p>
                         </div>
-                        <div className=" w-full flex">
+                        <div className=" w-full flex ">
                           <div className=" mx-auto">
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-600  rounded-full p-2  ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
                                 width={10}
                                 viewBox="0 0 320 512"
+                                className=""
                               >
                                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.*/}
                                 <path
@@ -74,7 +75,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-400 rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -88,7 +89,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] ">
+                            <button className=" w-[30px] h-[30px] hover:bg-red-600 rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -136,7 +137,7 @@ const Team = () => {
                         </div>
                         <div className=" w-full flex">
                           <div className=" mx-auto">
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-600  rounded-full p-2  ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -150,7 +151,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-400  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -164,7 +165,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] ">
+                            <button className=" w-[30px] h-[30px] hover:bg-red-600  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -212,7 +213,7 @@ const Team = () => {
                         </div>
                         <div className=" w-full flex">
                           <div className=" mx-auto">
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-600  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -226,7 +227,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-400  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -240,7 +241,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] ">
+                            <button className=" w-[30px] h-[30px] hover:bg-red-600  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -288,7 +289,7 @@ const Team = () => {
                         </div>
                         <div className=" w-full flex">
                           <div className=" mx-auto">
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-600  rounded-full p-2  ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -302,7 +303,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-400  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -316,7 +317,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] ">
+                            <button className=" w-[30px] h-[30px] hover:bg-red-600  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -364,7 +365,7 @@ const Team = () => {
                         </div>
                         <div className=" w-full flex">
                           <div className=" mx-auto">
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-600  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -378,7 +379,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] me-[2px] ">
+                            <button className=" w-[30px] h-[30px] me-[10px] hover:bg-blue-400  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}
@@ -392,7 +393,7 @@ const Team = () => {
                                 />
                               </svg>
                             </button>
-                            <button className=" w-[30px] h-[30px] ">
+                            <button className=" w-[30px] h-[30px] hover:bg-red-600  rounded-full p-2 ">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height={16}

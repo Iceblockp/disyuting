@@ -41,7 +41,7 @@ const PhotoInput = () => {
                             <div className="p-5 lg:mt-[480px] relative">
                               <input
                                 placeholder="Search..."
-                                className="shadow-[0_0px_20px_0px] backdrop-blur-md hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10 p-3 w-full caret-slate-200 rounded-3xl"
+                                className="shadow-[0_0px_20px_0px] backdrop-blur-md hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10 p-3 w-full caret-slate-200 rounded-3xl focus:border-[#62def5]"
                                 type="search"
                               />
                               <button className="flex justify-center items-center btnBlue rounded-3xl top-[23%] right-5 w-[64px] h-[49px] absolute">
@@ -133,37 +133,36 @@ const PhotoInput = () => {
                             </p>
                           </div>
                         </div>
-
                       </div>
-                        <div className="flex col-span-1 items-center rounded-lg btnBlue">
-                          <div className="flex mx-auto lg:w-[203px]">
-                            <div className=" mx-auto">
-                              <div className=" py-5">
-                                <div className=" mx-auto">
-                                  <div className=" flex justify-center items-center">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      fill="none"
-                                      viewBox="0 0 24 24"
-                                      strokeWidth={1.5}
-                                      stroke="currentColor"
-                                      className="w-10 h-10 bg-black rounded-3xl text-white "
-                                    >
-                                      <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-                                      />
-                                    </svg>
-                                  </div>
-                                  <p className="justify-center items-center text-center text-black font-para text-[25px]">
-                                    Explore
-                                  </p>
+                      <div className="flex col-span-1 items-center rounded-lg btnBlue">
+                        <div className="flex mx-auto lg:w-[203px]">
+                          <div className=" mx-auto">
+                            <div className=" py-5">
+                              <div className=" mx-auto">
+                                <div className=" flex justify-center items-center">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth={1.5}
+                                    stroke="currentColor"
+                                    className="w-10 h-10 p-2 bg-black rounded-3xl text-white "
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                                    />
+                                  </svg>
                                 </div>
+                                <p className="justify-center items-center text-center text-black font-para text-[25px]">
+                                  Explore
+                                </p>
                               </div>
                             </div>
                           </div>
                         </div>
+                      </div>
                     </div>
                   </div>
                 </div>
