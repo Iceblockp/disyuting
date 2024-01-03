@@ -1,21 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 
-const AccordianPart = ({ title }) => {
-  const [arrow, setArrow] = useState(true);
-  const press = () => {
-    setArrow(!arrow);
-  };
+const AccordianPart = ({id, title,press,open}) => {
+ 
+  const tap=() => {
+    press(id);
+  }
+
+ 
+ 
 
   return (
     <div className=" overflow-hidden border-s border-[#E9FCFF0F]">
-      <div
-        onClick={press}
+      <div accId={id}
+        onClick={tap}
         className=" px-[30px] py-[14px] accord flex justify-between relative z-20  "
       >
         <div className="  pointer-events-none font-para font-[600] text-[16px] text-white ">
           {title}
         </div>
-        <div className={`${!arrow && "rotate-180"}`}>
+        <div className={`${!open && "rotate-180"}`}>
           {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +39,7 @@ const AccordianPart = ({ title }) => {
 
       <div
         className={`${
-          arrow ? " hidden " : ""
+          open ? " hidden " : ""
         } relative z-0 px-[65px] py-[30px] duration-200 text-[#E9FCFF] font-para font-[400] text-[16px]  `}
       >
         <p>
