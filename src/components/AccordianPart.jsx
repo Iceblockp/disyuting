@@ -18,7 +18,7 @@ const AccordianPart = ({id, title,press,open}) => {
         <div className="  pointer-events-none font-para font-[600] text-[16px] text-white ">
           {title}
         </div>
-        <div className={`${!open && "rotate-180"}`}>
+        <div className={`${!open && "rotate-180"} text-white`}>
           {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
