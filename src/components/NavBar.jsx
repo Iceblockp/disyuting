@@ -134,7 +134,7 @@ const NavBar = () => {
                   <Link onClick={toggleDraw} to='/about'>About</Link>
                 </div>
                 <div className=" px-[25px] py-[15px] flex justify-between ">
-                  <div><a href=""><Link onClick={toggleDraw} to='/ourProject'>Our Project</Link></a></div>
+                  <div><Link onClick={toggleDraw} to='/ourProject'>Our Project</Link></div>
                   <div><button className=" px-[15px] py-[2px] flex items-center border border-accent rounded-[15px] ">
                   <svg
                           xmlns="http://www.w3.org/2000/svg"
