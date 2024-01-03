@@ -36,17 +36,17 @@ const NavBar = () => {
               <div className="hidden lg:block">
                 <ul className="flex text-[#E9FCFF] font-para font-[600] ">
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">
+                  
                       <Link to='/'>Home</Link>
-                    </a>
+                    
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">
+                   
                       <Link to='/about'>About</Link>
-                    </a>
+                    
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">
+                    
                       <Link to='/ourProject'>Our Project</Link>{" "}
                       <span>
                         <svg
@@ -60,10 +60,10 @@ const NavBar = () => {
                           <path fill="#E9FCFF" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
                         </svg>
                       </span>
-                    </a>
+                    
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href="">
+                    
                       <Link to='/pages'>Pages</Link>{" "}
                       <span>
                         <svg
@@ -80,10 +80,10 @@ const NavBar = () => {
                           />
                         </svg>
                       </span>
-                    </a>
+                    
                   </li>
                   <li className=" px-[15px] text-[15px] hover:text-secondary">
-                    <a href=""><Link to='/contactUs'>Contact Us</Link></a>
+                    <Link to='/contactUs'>Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -128,13 +128,13 @@ const NavBar = () => {
               
               <div className=" w-full font-para font-[600] text-accent text-[12px]  ">
                 <div className=" px-[25px] py-[15px] ">
-                  <a href=""><Link to='/'>Home</Link></a>
+                  <Link onClick={toggleDraw} to='/'>Home</Link>
                 </div>
                 <div className=" px-[25px] py-[15px] ">
-                  <a href=""><Link to='/about'>About</Link></a>
+                  <Link onClick={toggleDraw} to='/about'>About</Link>
                 </div>
                 <div className=" px-[25px] py-[15px] flex justify-between ">
-                  <div><a href=""><Link to='/ourProject'>Our Project</Link></a></div>
+                  <div><a href=""><Link onClick={toggleDraw} to='/ourProject'>Our Project</Link></a></div>
                   <div><button className=" px-[15px] py-[2px] flex items-center border border-accent rounded-[15px] ">
                   <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ const NavBar = () => {
                         </svg></button></div>
                 </div>
                 <div className=" px-[25px] py-[15px] flex justify-between ">
-                  <div><a href=""><Link to='/pages'>Pages</Link></a></div>
+                  <div><Link onClick={toggleDraw} to='/pages'>Pages</Link></div>
                   <div><button className=" px-[15px] py-[2px] flex items-center border border-accent rounded-[15px]">
                   <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ const NavBar = () => {
                         </svg></button></div>
                 </div>
                 <div className=" px-[25px] py-[15px] ">
-                  <a href=""><Link to='/contactUs'>Contact Us</Link></a>
+                  <Link onClick={toggleDraw} to='/contactUs'>Contact Us</Link>
                 </div>
               </div>
 

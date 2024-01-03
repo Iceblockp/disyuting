@@ -15,12 +15,14 @@ const AboutTop = ({header,title}) => {
                   <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
                     <p>{header}</p>
                   </div>
+
                   <div 
                   data-aos="zoom-in"
                   data-aos-duration="1000"
                   
                    className=" text-center flex justify-center w-full text-white font-heading font-[900] text-[36.49px] md:text-[47.78px] ">
-                    <h2>{title}</h2>
+                    <h2 className=" text-center">{title}</h2>
+
                   </div>
                   <div
                   data-aos="zoom-in"
