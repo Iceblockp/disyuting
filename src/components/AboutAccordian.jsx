@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import AOS from "aos";
 import "../../node_modules/aos/dist/aos.css";
 import CountUp from "react-countup";
@@ -6,6 +6,39 @@ import AccordianPart from "./AccordianPart";
 AOS.init();
 
 const AboutAccordian = () => {
+
+
+  const [arrow, setArrow] = useState(
+    [
+      {
+        id:1,
+        title:"What is a cinematic video?",
+        open:true
+      },
+      {
+        id:2,
+        title:"How can I use your services?",
+        open:true
+      },
+      {
+        id:3,
+        title:"What a 360° Visual Video?",
+        open:true
+      },
+      {
+        id:4,
+        title:"How to get Collaboration with Disyuting?",
+        open:true
+      }
+    ]
+  );
+  const press = (id) => {
+    console.log("hello");
+    setArrow(arrow.map(el => el.id===id? {...el,open:!el.open}:{...el,open:true}))
+
+  };
+
+
   return (
     <div className=" flex w-full  ">
       <div className=" flex mx-0 lg:mx-[5px] w-full mb-[200px]">
@@ -89,12 +122,8 @@ const AboutAccordian = () => {
                   data-aos-delay="1000"
                   className=" rounded-[5px] p-[5px] bg-cover   w-full border  border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm   flex flex-col gap-[10px] "
                 >
-                  <AccordianPart title={"What is a cinematic video?"} />
-                  <AccordianPart title={"How can I use your services?"} />
-                  <AccordianPart title={"What a 360° Visual Video?"} />
-                  <AccordianPart
-                    title={"How to get Collaboration with Disyuting?"}
-                  />
+                  {arrow.map(({id,title,open}) => <AccordianPart key={id} id={id} title={title} open={open} press={press} />)}
+                  
                 </div>
               </div>
             </div>
