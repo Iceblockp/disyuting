@@ -42,7 +42,7 @@ const App = () => {
       <Testimonial />
       <Footer /></>}></Route>
       <Route path="about" element={<><AboutTop header={'About Us'} title={`YOU'LL FIND OUT ABOUT DISYUTING`} /><AboutSecond />< AboutJourney /><Awards /><Team /><AboutAccordian /><InputFormSection /><Footer /></>} ></Route>
-      <Route path="ourProject" element={<><AboutTop header={'Our Project'} title={'PROJECTS THAT WE HAVE PRODUCED'} /><Header /><TopVisual /><Testimonial /><Footer /></>} ></Route>
+      <Route path="ourProject" element={<><AboutTop header={'Our Project'} title={'PROJECTS THAT WE HAVE PRODUCED'} /><ProjectHeader /><TopVisual /><Testimonial /><Footer /></>} ></Route>
       <Route path="pages" element={<><AboutTop header={'Our Service'} title={'VISUAL SERVICES PROVIDED'} /><PhotoInput />   <ShortMovie />  <Pricelist /> <AboutAccordian /> <Footer /></>} ></Route>
       <Route path="contactUs" element={<><AboutTop header={'Contact Us'} title={`LET'S COMMUNICATE TO WORK TOGETHER AND CREATE ATTRACTIVE VISUALS`} />   <ContactUs/>  <AboutSecond /><Testimonial /><Map /><Footer /></>} ></Route>
 
