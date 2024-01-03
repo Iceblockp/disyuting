@@ -59,7 +59,13 @@ const Awards = () => {
             {/* awards grid */}
             <div className="flex flex-row max-md:flex-col gap-[30px] pt-[30px]">
               <div className="  flex flex-col max-[1395px]:flex-row max-md:flex-col gap-[30px]">
-                <div className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay=""
+                  data-aos-offset="120"
+                  className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-sm"
+                >
                   <div className="p-[30px] md:p-[15px]">
                     <div className="pb-4">
                       <img
@@ -83,7 +89,12 @@ const Awards = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-md">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay=""
+                  className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-md"
+                >
                   <div className="p-[30px] md:p-[15px]">
                     <div className="">
                       <img
@@ -109,7 +120,12 @@ const Awards = () => {
                 </div>
               </div>
               <div className=" flex flex-col max-[1395px]:flex-row  max-md:flex-col gap-8">
-                <div className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-md">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                  className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] border-t-transparent border-r-transparent transparentCart backdrop-blur-md"
+                >
                   <div className="p-[30px] md:p-[15px]">
                     <div className="">
                       <img
@@ -134,6 +150,9 @@ const Awards = () => {
                   </div>
                 </div>
                 <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
                   className="w-full border rounded-md border-l-[#e9fcff0f] border-b-[#e9fcff0f] 
                 
                   border-t-transparent border-r-transparent transparentCart backdrop-blur-md"
