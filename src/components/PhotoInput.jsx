@@ -41,7 +41,7 @@ const PhotoInput = () => {
                             <div className="p-5 lg:mt-[480px] relative">
                               <input
                                 placeholder="Search..."
-                                className="shadow-[0_0px_20px_0px] backdrop-blur-md hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10 p-3 w-full caret-slate-200 rounded-3xl focus:border-[#62def5]"
+                                className="shadow-[0_0px_20px_0px] backdrop-blur-md hover:shadow-[#62DEF5] bg-slate-200 bg-opacity-10 py-3 px-6 w-full caret-slate-200 rounded-3xl focus:border-[#62def5]"
                                 type="search"
                               />
                               <button className="flex justify-center items-center btnBlue rounded-3xl top-[23%] right-5 w-[64px] h-[49px] absolute">
@@ -51,7 +51,7 @@ const PhotoInput = () => {
                                   viewBox="0 0 24 24"
                                   strokeWidth={1.5}
                                   stroke="currentColor"
-                                  className="w-6 text-white"
+                                  className="w-6 text-black"
                                 >
                                   <path
                                     strokeLinecap="round"

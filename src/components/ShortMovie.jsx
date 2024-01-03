@@ -7,7 +7,7 @@ const ShortMovie = () => {
         <div className=" w-full lg:w-[91%] mx-auto">
           <div className=" w-full px-[30px] lg:px-0 py-[10px] lg:py-[5px]">
             <div className=" flex gap-6 flex-wrap justify-center">
-              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 hover:bg-slate-500 hover:border-[#62DEF5] shadow-lg hover:shadow-[#62DEF5] xs:w-full">
+              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 transparentCart shadow-lg hover:shadow-[#62DEF5] xs:w-full">
                 <h1 className="md:text-[46px] xs:text-[20px] font-bold mb-4 text-slate-100 font-heading tracking-wider">
                   SHORT MOVIE
                 </h1>
@@ -17,7 +17,7 @@ const ShortMovie = () => {
                   leo.
                 </p>
               </div>
-              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 hover:bg-slate-500 hover:border-[#62DEF5] shadow-lg hover:shadow-[#62DEF5] xs:w-full">
+              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 transparentCart shadow-lg hover:shadow-[#62DEF5] xs:w-full">
                 <h1 className="md:text-[46px] xs:text-[20px] font-bold mb-4 text-slate-100 font-heading tracking-wider">
                   ADVERTISING
                 </h1>
@@ -27,7 +27,7 @@ const ShortMovie = () => {
                   leo.
                 </p>
               </div>
-              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 hover:bg-slate-500 hover:border-[#62DEF5] shadow-lg hover:shadow-[#62DEF5] xs:w-full">
+              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 transparentCart shadow-lg hover:shadow-[#62DEF5] xs:w-full">
                 <h1 className="md:text-[46px] xs:text-[20px] font-bold mb-4 text-slate-100 font-heading tracking-wider">
                   PHOTOGRAPHY
                 </h1>
@@ -37,7 +37,7 @@ const ShortMovie = () => {
                   leo.
                 </p>
               </div>
-              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 hover:bg-slate-500 hover:border-[#62DEF5] shadow-lg hover:shadow-[#62DEF5] xs:w-full">
+              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 transparentCart shadow-lg hover:shadow-[#62DEF5] xs:w-full">
                 <h1 className="md:text-[46px] xs:text-[20px] font-bold mb-4 text-slate-100 font-heading tracking-wider">
                   BROADCASTING
                 </h1>
@@ -47,7 +47,7 @@ const ShortMovie = () => {
                   leo.
                 </p>
               </div>
-              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 hover:bg-slate-500 hover:border-[#62DEF5] shadow-lg hover:shadow-[#62DEF5] xs:w-full">
+              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 transparentCart  shadow-lg hover:shadow-[#62DEF5] xs:w-full">
                 <h1 className="md:text-[46px] xs:text-[20px] font-bold mb-4 text-slate-100 font-heading tracking-wider">
                   DOCUMENTER
                 </h1>
@@ -57,7 +57,7 @@ const ShortMovie = () => {
                   leo.
                 </p>
               </div>
-              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 hover:bg-slate-500 hover:border-[#62DEF5] shadow-lg hover:shadow-[#62DEF5] xs:w-full">
+              <div className="md:w-[480px] md:h-[238px] bg-blur-lg bg-slate-200 bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-[5px] border-l-[1px] border-b-[1px]  border-slate-400 transparentCart  shadow-lg hover:shadow-[#62DEF5] xs:w-full">
                 <h1 className="md:text-[46px] xs:text-[20px] font-bold mb-4 text-slate-100 font-heading tracking-wider">
                   360º VISUAL
                 </h1>
