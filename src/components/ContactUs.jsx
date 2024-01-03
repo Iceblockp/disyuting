@@ -10,44 +10,7 @@ const ContactUs = () => {
       <div className=" flex mx-0 lg:mx-[5px] w-full">
         <div className=" w-full lg:w-[89%] mx-auto 2xl:max-w-[1620px] 2xl:mx-auto ">
           <div className=" px-[30px] lg:px-0 py-[10px] lg:py-[5px] w-full ">
-            <section className=" py-40">
-              <div className="">
-                <h5 className=" text-center items-center justify-center font-para text-[17px] text-white font-semibold leading-tight">
-                  Contact Us
-                </h5>
-              </div>
-              <div className="">
-                <h1 className=" text-center items-center justify-center font-heading text-[94px] font-bold text-white tracking-normal leading-tight">
-                  LET'S COMMUNICATE TO WORK TOGETHER AND CREATE ATTRACTIVE
-                  VISUALS
-                </h1>
-              </div>
-              <div className="flex">
-                <p className=" mx-auto text-center items-center justify-center lg:w-[429px] text-white font-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
-                </p>
-              </div>
-              <div className="flex mt-10">
-                <div className=" mx-auto items-center justify-center text-center text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-14 h-14"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="m19.5 4.5-15 15m0 0h11.25m-11.25 0V8.25"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </section>
+            
             <section className="flex flex-col-reverse lg:flex-row gap-[120px]">
               <div  data-aos="fade-left" data-aos-duration="1000"  data-aos-delay="1000" className="  bg-contain bg-no-repeat bg-right-bottom w-full lg:w-[60%] flex-grow bg-[url('https://templates.casloop.net/disyuting/wp-content/uploads/sites/19/2023/11/happy-black-female-listening-music-with-digital-ta-2023-03-23-03-44-16-utcEDT-1.png')] lg:w-[671px]">
                 <div className=" flex flex-col h-full">

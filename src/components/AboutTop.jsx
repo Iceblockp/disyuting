@@ -1,4 +1,7 @@
 import React from "react";
+import AOS from "aos";
+import "../../node_modules/aos/dist/aos.css";
+AOS.init();
 
 const AboutTop = ({header,title}) => {
   return (
@@ -12,17 +15,31 @@ const AboutTop = ({header,title}) => {
                   <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
                     <p>{header}</p>
                   </div>
-                  <div className=" flex justify-center w-full text-white font-heading font-[900] text-[36.49px] md:text-[47.78px] ">
+
+                  <div 
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  
+                   className=" text-center flex justify-center w-full text-white font-heading font-[900] text-[36.49px] md:text-[47.78px] ">
                     <h2 className=" text-center">{title}</h2>
+
                   </div>
-                  <div className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
+                  <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                   className=" flex justify-center w-full font-para font-[600] text-accent text-[16px] ">
                     <p className=" max-w-[399px] ">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                       dapibus leo.
                     </p>
                   </div>
-                  <div className=" flex justify-center w-full text-white ">
+                  <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="2000"
+                   className=" flex justify-center w-full text-white ">
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

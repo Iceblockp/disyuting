@@ -18,7 +18,7 @@ const InputFormSection = () => {
                     READY TO COLLABORATE WITH THE BEST VISUAL PRODUCTION HOUSE?
                   </h1>
                 </div>
-                <div className=" mt-5">
+                <div className=" mt-5 xs:mb-[20px]">
                   <p className="text-center lg:text-start text-slate-300 max-w-[403px] xl:max-w-[508px] lg:tracking-tight">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
@@ -30,7 +30,7 @@ const InputFormSection = () => {
               <div className="  w-full lg:w-6/12 flex lg:items-center lg:justify-center xs:mt-10">
                 <div
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   className="border-[#e9fcff0f] formShadow border-l border-b py-16 px-10 rounded-lg w-full   bg-slate-200 bg-opacity-10"
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
@@ -96,7 +96,7 @@ const InputFormSection = () => {
                   <div className="text-start">
                     <button
                       type="submit"
-                      className="  font-para px-10 py-3 btnBlue rounded-3xl font-bold"
+                      className="  font-para px-10 py-3 btnBlue rounded-3xl font-semibold"
                     >
                       Send Message
                     </button>
